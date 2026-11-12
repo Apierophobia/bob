@@ -13,3 +13,10 @@
 - Autonome Spurhaltung
     - Reflexionssensor-Array zur Erkennung von Kontrastunterschieden unter dem Auto
     - Korrekturen der Messdaten über einen PID-Regler
+
+- Zentrale Steuerung über ESP32-Mikrocontroller
+    - 1x für kritische Systeme, z.B. Spurhaltung, Hinderniserkennung
+    - 1x für Datenauswertung, Betrieb einer grafischen Oberfläche über eine kleine Webapplikation innerhalb des lokalen WiFi-Netzwerks des ESP32
+
+- Schlüssel für die Benutzung
+    - Entsperrung des Fahrzeugs über eine RFID-Karte als Schutzmaßnahme vor Beschädigungen
